@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		265CEE741FA0AE640085F7C5 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 268651831FA0AB87009983F2 /* SelectionSort.m */; };
+		265CEE741FA0AE640085F7C5 /* BasicSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 268651831FA0AB87009983F2 /* BasicSort.m */; };
 		2670993D1FA0A956002A0A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2670993C1FA0A956002A0A36 /* AppDelegate.m */; };
 		267099401FA0A956002A0A36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2670993F1FA0A956002A0A36 /* ViewController.m */; };
 		267099431FA0A956002A0A36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267099411FA0A956002A0A36 /* Main.storyboard */; };
 		267099451FA0A956002A0A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267099441FA0A956002A0A36 /* Assets.xcassets */; };
 		267099481FA0A956002A0A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267099461FA0A956002A0A36 /* LaunchScreen.storyboard */; };
 		2670994B1FA0A956002A0A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2670994A1FA0A956002A0A36 /* main.m */; };
+		26AB5DA31FA1819200FB3A41 /* SortTestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AB5DA21FA1819200FB3A41 /* SortTestHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,10 @@
 		267099471FA0A956002A0A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		267099491FA0A956002A0A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2670994A1FA0A956002A0A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		268651821FA0AB87009983F2 /* SelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
-		268651831FA0AB87009983F2 /* SelectionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
+		268651821FA0AB87009983F2 /* BasicSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicSort.h; sourceTree = "<group>"; };
+		268651831FA0AB87009983F2 /* BasicSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicSort.m; sourceTree = "<group>"; };
+		26AB5DA11FA1819200FB3A41 /* SortTestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortTestHelper.h; sourceTree = "<group>"; };
+		26AB5DA21FA1819200FB3A41 /* SortTestHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortTestHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				2670993C1FA0A956002A0A36 /* AppDelegate.m */,
 				2670993E1FA0A956002A0A36 /* ViewController.h */,
 				2670993F1FA0A956002A0A36 /* ViewController.m */,
+				26AB5DA11FA1819200FB3A41 /* SortTestHelper.h */,
+				26AB5DA21FA1819200FB3A41 /* SortTestHelper.m */,
 				267099541FA0AA71002A0A36 /* algorithmMethod */,
 				267099411FA0A956002A0A36 /* Main.storyboard */,
 				267099441FA0A956002A0A36 /* Assets.xcassets */,
@@ -78,8 +83,8 @@
 		267099541FA0AA71002A0A36 /* algorithmMethod */ = {
 			isa = PBXGroup;
 			children = (
-				268651821FA0AB87009983F2 /* SelectionSort.h */,
-				268651831FA0AB87009983F2 /* SelectionSort.m */,
+				268651821FA0AB87009983F2 /* BasicSort.h */,
+				268651831FA0AB87009983F2 /* BasicSort.m */,
 			);
 			path = algorithmMethod;
 			sourceTree = "<group>";
@@ -155,7 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				265CEE741FA0AE640085F7C5 /* SelectionSort.m in Sources */,
+				26AB5DA31FA1819200FB3A41 /* SortTestHelper.m in Sources */,
+				265CEE741FA0AE640085F7C5 /* BasicSort.m in Sources */,
 				267099401FA0A956002A0A36 /* ViewController.m in Sources */,
 				2670994B1FA0A956002A0A36 /* main.m in Sources */,
 				2670993D1FA0A956002A0A36 /* AppDelegate.m in Sources */,

@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "algorithmMethod/SelectionSort.h"
+#import "BasicSort.h"
+#import "SortTestHelper.h"
 
 @interface ViewController ()
 
@@ -17,9 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@1,@2,@3,@4,@5,@61,@2,@2331,@213123,@211321, nil];
-     [SelectionSort selectionSortArray:arr];
-    NSLog(@"%@", arr);
+    NSMutableArray *array1 = [SortTestHelper generateRandomArrayWithN:10000 rangeL:0 rangeR:10000];
+    NSMutableArray *array2 = [array1 mutableCopy];
+    [SortTestHelper testSort:@"Selection Sort" sortMethod:^(NSMutableArray *array) {
+        [BasicSort selectionSortArray:array];
+    } array:array1];
+    [SortTestHelper testSort:@"Insertion Sort" sortMethod:^(NSMutableArray *array) {
+        [BasicSort insertionSortArray:array];
+    } array:array2];
+    
 }
 
 

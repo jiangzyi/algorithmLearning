@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SelectionSort : NSObject
-+ (NSMutableArray *)selectionSortArray:(NSMutableArray *)array;
+@interface BasicSort : NSObject
+//选择排序
++ (void)selectionSortArray:(NSMutableArray *)array;
+//插入排序
++ (void)insertionSortArray:(NSMutableArray *)array;
 @end
