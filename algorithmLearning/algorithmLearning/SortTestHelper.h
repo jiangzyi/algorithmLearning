@@ -17,5 +17,5 @@
 // 判断数组是否有序
 + (BOOL)isSorted:(NSMutableArray *)array;
 // 时间测试
-+ (void)testSort:(NSString *)sortName sortMethod:(void (^)(NSMutableArray *))sortMethod array:(NSMutableArray *)array;
++ (void)testSort:(NSString *)sortName sortMethod:(void (^)(NSMutableArray *))sortMethod;
 @end

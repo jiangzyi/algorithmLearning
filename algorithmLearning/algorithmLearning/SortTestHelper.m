@@ -32,7 +32,8 @@
     return true;
 }
 
-+ (void)testSort:(NSString *)sortName sortMethod:(void (^)(NSMutableArray *))sortMethod array:(NSMutableArray *)array {
++ (void)testSort:(NSString *)sortName sortMethod:(void (^)(NSMutableArray *))sortMethod{
+    NSMutableArray *array = [SortTestHelper generateRandomArrayWithN:10000 rangeL:0 rangeR:10000];
     NSTimeInterval start = [[NSDate date] timeIntervalSince1970];
     sortMethod(array);
     NSTimeInterval end = [[NSDate date] timeIntervalSince1970];
