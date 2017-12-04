@@ -136,7 +136,5 @@
         [_data exchangeObjectAtIndex:k withObjectAtIndex:j];
         k = j;
     }
-    
-    
 }
 @end

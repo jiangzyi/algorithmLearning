@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		260308871FCE961600AE1B13 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 260308861FCE961600AE1B13 /* QuickSort.m */; };
 		2608713F1FD005C2002FABC8 /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608713E1FD005C2002FABC8 /* MaxHeap.m */; };
+		262A5EA41FD14E750058EF6A /* IndexMaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 262A5EA31FD14E750058EF6A /* IndexMaxHeap.m */; };
 		265CEE741FA0AE640085F7C5 /* BasicSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 268651831FA0AB87009983F2 /* BasicSort.m */; };
 		266EC91F1FA7484A00C80224 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 266EC91E1FA7484A00C80224 /* MergeSort.m */; };
 		2670993D1FA0A956002A0A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2670993C1FA0A956002A0A36 /* AppDelegate.m */; };
@@ -25,6 +26,8 @@
 		260308861FCE961600AE1B13 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		2608713D1FD005C2002FABC8 /* MaxHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxHeap.h; sourceTree = "<group>"; };
 		2608713E1FD005C2002FABC8 /* MaxHeap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxHeap.m; sourceTree = "<group>"; };
+		262A5EA21FD14E750058EF6A /* IndexMaxHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexMaxHeap.h; sourceTree = "<group>"; };
+		262A5EA31FD14E750058EF6A /* IndexMaxHeap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexMaxHeap.m; sourceTree = "<group>"; };
 		266EC91D1FA7484A00C80224 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		266EC91E1FA7484A00C80224 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		267099381FA0A956002A0A36 /* algorithmLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorithmLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +103,8 @@
 				260308861FCE961600AE1B13 /* QuickSort.m */,
 				2608713D1FD005C2002FABC8 /* MaxHeap.h */,
 				2608713E1FD005C2002FABC8 /* MaxHeap.m */,
+				262A5EA21FD14E750058EF6A /* IndexMaxHeap.h */,
+				262A5EA31FD14E750058EF6A /* IndexMaxHeap.m */,
 			);
 			path = algorithmMethod;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				267099401FA0A956002A0A36 /* ViewController.m in Sources */,
 				2670994B1FA0A956002A0A36 /* main.m in Sources */,
 				2670993D1FA0A956002A0A36 /* AppDelegate.m in Sources */,
+				262A5EA41FD14E750058EF6A /* IndexMaxHeap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
